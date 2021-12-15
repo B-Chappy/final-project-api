@@ -132,12 +132,11 @@ const anscheck = function(x){
         const agrabc = document.querySelector(`${c}`);
         agrabc.classList.remove('green');
         agrabc.classList.add('red');
-        
     }
     
     agrab1.addEventListener('click', function(){
         if(database[x].correct === "choice1"){green('#one'); }
-        else{red('#one')} 
+        else{red('#one');} 
     })
     agrab2.addEventListener('click', function(){
         if(database[x].correct === "choice2"){green('#two'); }
@@ -199,7 +198,7 @@ const database = [
         correct: "choice3",
     },
     {
-        question: "EXTRA CREDIT: Which GBA Bowser's Castle track  did NOT return in later games?",
+        question: "EXTRA CREDIT: Which GBA Bowser's Castle track did NOT return in later games?",
         choice1: "Bowser's Castle 1",
         choice2: "Bowser's Castle 2",
         choice3: "Bowser's Castle 3",

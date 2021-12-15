@@ -158,7 +158,7 @@ const database = [
         correct: "choice3"
     },
     {
-        question: "EXTRA CREDIT: Which GBA Bowser's Castle track  did NOT return in later games?",
+        question: "EXTRA CREDIT: Which GBA Bowser's Castle track did NOT return in later games?",
         choice1: "Bowser's Castle 1",
         choice2: "Bowser's Castle 2",
         choice3: "Bowser's Castle 3",
