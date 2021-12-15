@@ -1,30 +1,40 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="scss/style.scss" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.scss">
+    <title>Document</title>
 </head>
 
 <body>
-  <h1 class="header">My Book Collection</h1>
-  <h2 class="top-rated">Best Selling Books</h2>
-  <nav class="navbar">
-    <div id="hov" class="fiction">Fiction</div>
-    <div id="hov" class="nonfiction">Non-Fiction</div>
-    <div id="hov" class="youngadult">Young Adult</div>
-    <div id="hov" class="middlegrade">Middle Grade</div>
-    <div id="hov" class="picture">Picture Books</div>
-  </nav>
-  <section class="movie-grid">
-    
-  </section>
+    <section class="intro-page">
+        <header class="yo">Welcome to the Mario Kart Quiz!</header>
+        <button class="start">START QUIZ</button>
+    </section>
 
-  <script src="js/index.js"></script>
+    <div id="quiz-content" class="hidden">
+
+        <div id="question">Question(s)</div>
+        <div class="choice-container">
+            <button class="choices" id="one">Answer choice(s)</button>
+            <button class="choices" id="two">Answer choice(s)</button>
+            <button class="choices" id="three">Answer choice(s)</button>
+            <button class="choices" id="four">Answer choice(s)</button>
+        </div>
+
+        <button class="submit">Next Question</button>
+    </div>
+
+    <section id="resultspage" class="hidden">
+        <div id="scoretext">score</div>
+        <a href="#"><button id="restart">Play Again</button></a>
+    </section>
+
+
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
