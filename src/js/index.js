@@ -118,7 +118,7 @@ const anscheck = function(x){
     
    
     
-    
+
     const green = function(a){
         const agraba = document.querySelector(`${a}`);
         agraba.classList.remove('red');
