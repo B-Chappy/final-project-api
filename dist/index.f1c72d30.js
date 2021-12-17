@@ -96,24 +96,20 @@ const anscheck = function(x) {
         const agrabc = document.querySelector(`${c}`);
         agrabc.classList.remove('green');
         agrabc.classList.add('red');
-        lock1();
-        lock2();
-        lock3();
-        lock4();
     };
-    agrab1.addEventListener('click', function lock1() {
+    agrab1.addEventListener('click', function() {
         if (database[x].correct === "choice1") green('#one');
         else red('#one');
     });
-    agrab2.addEventListener('click', function lock2() {
+    agrab2.addEventListener('click', function() {
         if (database[x].correct === "choice2") green('#two');
         else red('#two');
     });
-    agrab3.addEventListener('click', function lock3() {
+    agrab3.addEventListener('click', function() {
         if (`${database[x].correct}` === "choice3") green('#three');
         else red('#three');
     });
-    agrab4.addEventListener('click', function lock4() {
+    agrab4.addEventListener('click', function() {
         if (database[x].correct === "choice4") green('#four');
         else red('#four');
     });
